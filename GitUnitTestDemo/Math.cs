@@ -4,12 +4,13 @@ namespace GitUnitTestDemo
 {
     public class Math
     {
-        public int a, b;
+        public int a, b, c;
 
         public Math()
         {
             a = 1;
             b = 1;
+	    c = 1;
         }
 
         public Math(int a, int b)
